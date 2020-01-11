@@ -1,0 +1,23 @@
+<div class="container">
+  <h1>Awesome Quotes</h1>
+  <div class="row">
+    <div class="col-md-9">
+        <div *ngFor='let quote of quotes;let i = index'>
+          <div class="row blockquote">
+            <div class="col-md-1">
+              <app-vote></app-vote>
+            </div>
+            <div class="col-md-11">
+              <p class="quote">{{quote.myquote}}   </p>
+            </div>
+            <app-quote-detail *ngIf='quote.showDetails' [quote]='quote' (isComplete)= 'deleteQuote($event,i)'></app-quote-detail>
+          </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+      <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+    </div>
+  </div>
+</div>
+
+            <!-- {{quote.postTime|date}} -->
