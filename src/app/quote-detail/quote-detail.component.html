@@ -1,0 +1,5 @@
+<p class="author">{{quote.author}}</p>
+<div class="more">
+    <p>{{"Posted by: " + quote.person+","}} {{quote.postTime |timePassed}}</p>
+    <button (click)='quoteDelete(true)'><i class="fa fa-trash text-danger" aria-hidden="true"> Delete</i> </button>
+</div>
