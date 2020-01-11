@@ -1,0 +1,24 @@
+<div>
+    <form (ngSubmit)='submitQuote()' #quoteForm = 'ngForm' class="quoteform">
+        <h3>Add Quote</h3>
+        <div>
+            <textarea class="form-control" id="quote" rows="4" [(ngModel)]="newQuote.myquote" name="myquote" #myquote='ngModel'placeholder="The quote..." required></textarea>
+            <div [hidden]="myquote.valid || myquote.pristine" class="alert alert-danger" >
+                <p>The quote is required</p>
+            </div>
+        </div>
+        <div >
+            <input type="text" required class="form-control" id="author" [(ngModel)]="newQuote.author" name="author" #author='ngModel' placeholder="Quoted by...." required>
+            <div [hidden]="author.valid || author.pristine" class="alert alert-danger" >
+                <p>The author is required</p>
+            </div>
+        </div>
+        <div >
+            <input type="text" required class="form-control" id="person" [(ngModel)]="newQuote.person" name="person" #person='ngModel' placeholder="Your name..." required>
+            <div [hidden]="person.valid || person.pristine" class="alert alert-danger" >
+                <p>The person is required</p>
+            </div>
+        </div>
+        <button type="submit" class="addbutton">Add Quote</button>
+    </form>
+</div>
