@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Didact+Gothic|Lobster+Two|Open+Sans+Condensed:300|Rubik|Satisfy&display=swap');
+.quoteform{
+    width: 450px;
+    padding: 10px 10px;
+    background:#f8fffe;
+}
+.form-control{
+    width: 430px;
+    border: none;
+    border-bottom: 2px solid #b0d2cb;
+    font-size: 18px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.addbutton{
+    background: #b0d2cb;
+    border: none;
+    border-radius: 20px;
+    padding: 3px 10px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    font-family: 'Rubik', sans-serif;
+
+}
+.addbutton:hover{
+    background: #c4ebe3;
+    transition: all 0.5s ease;
+
+}
+h3{
+    font-family: 'Didact Gothic', sans-serif;
+    margin: 5px;
+    text-align: center;
+}
