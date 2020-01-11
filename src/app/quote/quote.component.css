@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Gayathri|Heebo|Noto+Sans+JP|Poppins&display=swap');
+.container{
+    margin-left: 5px;
+}
+h1{
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.37);
+    width: 1325px;
+    margin: 5px;
+    padding: 5px;
+}
+.blockquote{
+    max-width: 950px;
+    margin: 5px 5px;
+    padding :5px 10px;
+    background:#f8fffe;
+    border:1px solid #b0d2cb;
+    color: #0b4237;
+    box-sizing: border-box;
+    border-left: 10px solid #b0d2cb; 
+}
+.quote{
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 1.15em;
+    margin: 0;
+}
+.quote::before{
+    content:'\201c';
+    font-size: 40px;
+    color: #009578;
+}
