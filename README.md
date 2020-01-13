@@ -5,7 +5,7 @@ This an angular application that displays quotes, their author, person who poste
 ## Technologies Used
 
 - HTML
-- CSS
+- 
 - JavaScript/Angular Js
 - Bootstrap
 
