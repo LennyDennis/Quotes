@@ -1,27 +1,80 @@
 # Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+This an angular application that displays quotes, their author, person who posted the quote and time since it was displayed. It also gives the functionality to add a quote.
 
-## Development server
+## Technologies Used
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- HTML
+- CSS
+- JavaScript/Angular Js
+- Bootstrap
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+##### Requirements
 
-## Build
+Web Browser
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+##### Setup Instructions and Installation
 
-## Running unit tests
+-  Open terminal and make a folder Quotes. `Quotes`
+- Clone this repository to a location in the folder.`git clone https://github.com/LennyDennis/Quotes.git`
+- On the terminal, `npm install` then `ng serve`.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Behaviour Driven Development
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+1. Displays the homepage to Awesome Quotes
+  
+2. Displays quotes on the homepage
 
-## Further help
+3. Add a quote through its form
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Development
+
+Want to contribute? Great!
+
+To fix a bug or enhance an existing module, follow these steps:
+- Fork the repo
+- Create a new branch
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes 
+- Push to the branch 
+- Create a Pull Request
+
+
+## Known Bugs
+
+No known bugs however if you find any bug kindly reach out.
+
+
+
+
+##### Link to Live Site : https://lennydennis.github.io/Quotes/
+
+### License
+
+*MIT License
+
+Copyright (c) [2019] [Lenny Dennis Macharia]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.*
+
+Copyright (c) 2019 **LennyDennisMacharia**
